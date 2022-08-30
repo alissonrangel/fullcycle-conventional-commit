@@ -1,0 +1,6 @@
+
+#!/bin/sh
+. "/Users/alissoncarvalho/Documents/Alisson/profissional/projeto03/.husky/_/husky.sh"
+
+npx --no -- commitlint --edit ${1}
+
